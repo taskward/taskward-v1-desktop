@@ -1,0 +1,15 @@
+{
+  "name": "taskward-pc",
+  "version": "1.0.0",
+  "description": "A PC version for Taskward.",
+  "main": "main.js",
+  "author": "Bruce Song",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "cspell": "^6.12.0",
+    "electron": "^21.1.1"
+  }
+}
