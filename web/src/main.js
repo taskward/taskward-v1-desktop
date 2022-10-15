@@ -1,16 +1,22 @@
-const { app, BrowserWindow } = require("electron");
-const path = require("path");
+const { app, BrowserView, BrowserWindow } = require("electron");
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
-    webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
-    },
+    width: 1920,
+    height: 1080,
     icon: "/src/images/taskward.png",
   });
-  win.loadFile("index.html");
+
+  const view = new BrowserView();
+  win.setBrowserView(view);
+  view.setBounds({ x: 0, y: 0, width: 1920, height: 1080 });
+  view.setAutoResize({
+    width: true,
+    height: true,
+    horizontal: true,
+    vertical: true,
+  });
+  view.webContents.loadURL("https://taskward.bruceworld.top");
 };
 
 app.whenReady().then(() => {
