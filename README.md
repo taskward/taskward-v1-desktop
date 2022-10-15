@@ -5,6 +5,7 @@ Taskward is a Todo&Task application.
 ## Stack
 
 - Electron
+- JavaScript
 
 ## Library
 
