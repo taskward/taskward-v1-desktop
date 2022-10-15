@@ -4,19 +4,11 @@ Taskward is a Todo&Task application.
 
 ## Stack
 
-- React
-- TypeScript
-- Vite
 - Electron
 
 ## Library
 
-- Tailwind
-- DaisyUI
-- React-Redux
-- React-Query
-- React-Hook-Form & yup
-- React-i18n-next
+- ...
 
 ## Others
 
