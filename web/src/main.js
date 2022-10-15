@@ -8,6 +8,7 @@ const createWindow = () => {
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
+    icon: "/src/images/taskward.png",
   });
   win.loadFile("index.html");
 };
