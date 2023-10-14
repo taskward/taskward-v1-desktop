@@ -1,23 +1,21 @@
 {
-  "name": "taskward",
-  "version": "1.0.0",
+  "name": "taskward-v1-desktop",
   "description": "A PC version for Taskward.",
-  "main": "src/main.js",
   "author": "Bruce Song",
-  "license": "MIT",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.67",
-    "@electron-forge/maker-deb": "^6.0.0-beta.67",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.67",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.67",
-    "@electron-forge/maker-zip": "^6.0.0-beta.67",
-    "cspell": "^6.12.0",
-    "electron": "^21.1.1"
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "cspell": "^7.3.8",
+    "electron": "^27.0.0"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
@@ -50,5 +48,7 @@
         }
       ]
     }
-  }
+  },
+  "private": true,
+  "license": "MIT"
 }

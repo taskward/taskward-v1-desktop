@@ -1,4 +1,4 @@
-# Taskward PC
+# Taskward V1 Desktop
 
 Taskward is a Todo&Task application.
 
@@ -6,10 +6,6 @@ Taskward is a Todo&Task application.
 
 - Electron
 - JavaScript
-
-## Library
-
-- ...
 
 ## Others
 
